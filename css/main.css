@@ -1,0 +1,349 @@
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+.user-icon img{
+    width: 20px;
+    border-radius: 50%;
+    padding: 1px;
+    background: #fff;
+    margin-right: 0.6rem;
+}
+
+.user-icon a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+
+#logo{
+    width: 90px;
+}
+
+.navbar{
+    height: 48px;
+}
+
+#user-nav-link-img{
+    width: 20px;
+    height: 18px;
+}
+
+.nav--btn{
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 30px;
+}
+
+/*  */
+
+#content--section{
+    background-color: #DAE0E6;
+}
+
+.content--section--inner{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+/*  */
+
+.trending--card-body{
+    /* background-image: linear-gradient(rgba(0,0,0,0.479), rgba(0, 0, 0, 0.479)), url(../images/contents/russia.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    padding: 0.7rem;
+}
+
+.trending--card{
+    border-radius: 10px;
+    width: 15.1rem;
+    height: 11.2rem;
+}
+
+.trending--card-body-inner{
+    position: absolute;
+    bottom: 10px;
+}
+
+.trending--card-body h5{
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.trending--card-body p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.timeline--title{
+    margin: 0;
+    color: #1a1a1b;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.trending--card-body img{
+    width: 20px;
+    border-radius: 50%;
+    padding: 1px;
+    background: #fff;
+    margin-right: 0.6rem;
+}
+
+.trending--card-body a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+/*  */
+
+.timeline{
+    width: 64%;
+}
+
+.timeline-nav{
+    background-color: #fff;
+    height: 3.4rem;
+}
+
+.timeline-nav ul li{
+    margin: auto 0;
+}
+
+.trending--nav-btn{
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 30px;
+    background: #DAE0E6;
+}
+
+/*  */
+
+.ask-reddit{
+    background-color: #fff;
+    height: 6rem;
+}
+
+/*  */
+
+.vote{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background-color: #F8F9FA;
+    text-align: center;
+    color: #2D2D2D;
+    font-size: 0.8rem;
+}
+
+/*  */
+
+.single-post{
+    background-color: #fff;
+    /* height: 27rem; */
+}
+
+.sidebar{
+    width: 33%;
+}
+
+.top--sidebar{
+    height: 400px;
+    background-color: #fff;
+}
+
+.sidebar--cover{
+    height: 75px;
+    background-image: linear-gradient(rgba(0,0,0,0.479), rgba(0, 0, 0, 0.479)), url(../images/sidebar--banner.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.sidebar--groups-users{
+    margin: 0 1rem;
+    border-bottom: 1px solid #DAE0E6;
+}
+
+.sidebar--groups-users p{
+    font-weight: 500;
+    margin: 0 0.6rem;
+}
+
+.sidebar--groups-users img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #DAE0E6;
+}
+
+.sidebar--groups-users small{
+    font-weight: 500;
+}
+
+.sidebar--groups-users .btn-primary{
+    padding: 0 0.9rem;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sidebar--groups-users i{
+    color: rgb(70, 209, 96)
+}
+
+.sidebar--groups-viewall{
+    margin: 0 auto;
+    width: 90%;
+    padding: 6px 0;
+    border-radius: 20px;
+    display: block;
+    margin-top: 0.6rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.sidebar--groups ul{
+    padding: 0;
+    margin: 0.9rem 0 0 0.6rem;
+}
+
+.sidebar--groups ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    background-color: #F6F7F8;
+    padding: 0.2rem 0.6rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: #419BDE;
+    margin-right: 0.5rem;
+}
+
+.sidebar--groups ul li a:hover{
+    background-color: #E3EDF6;
+    color: #3b85be;
+}
+
+/* premium sidebar */
+
+.premium--sidebar{
+    height: 100px;
+    background-color: #fff;
+}
+
+.premium--sidebar-text img{
+    width: 17px;
+    height: 19px;
+}
+
+.premium--sidebar-text h5{
+    font-size: 0.8rem;
+    margin: 0 0 0.2rem 0;
+}
+
+.premium--sidebar-text p{
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+/* category sidebar */
+
+.category--sidebar{
+    height: 281px;
+    background-color: #fff;
+}
+
+.category--sidebar-inner{
+    border-bottom: 1px solid #DAE0E6;
+}
+
+.category--sidebar-inner p{
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 0.7rem;
+}
+
+.category--sidebar p:last-child{
+    border-bottom: none
+}
+
+/* sidebar menu */
+
+.sidebar--menu{
+    height: 260px;
+    background-color: #fff;
+}
+
+.sidebar--menu .d-flex{
+    padding: 0.5rem;
+    margin-left: 0.3rem;
+}
+
+.sidebar--menu .d-flex ul{
+    width: 50%;
+}
+
+.sidebar--menu .d-flex ul li{
+    line-height: 1.3rem;
+}
+
+.sidebar--menu .d-flex ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+.sidebar--menu p{
+    font-size: 12px;
+    margin: auto 0;
+    margin-left: 0.8rem;
+}
+
+/*  */
+
+.single-post .post-content{
+    width: 100%;
+}
+
+.single-post .post-content img{
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    height: fit-content;
+}
+
+.single-post .post-content p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.single-post .post-content p span{
+    font-size: 0.7rem;
+}
